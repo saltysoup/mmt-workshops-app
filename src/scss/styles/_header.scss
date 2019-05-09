@@ -1,0 +1,34 @@
+// Branding
+.logo {
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  & > svg {
+    display: inline-block;
+    max-width: 100%;
+  }
+}
+.logo-fill {
+  fill: #fff;
+  @include animate(5s);
+  @extend .logo-animation;
+}
+
+// Banner
+.banner {
+  background: url(../img/banner.png) 50% 50% no-repeat;
+  background-size: cover;
+  color: $white;
+}
+.banner-heading {
+  @extend .h-white;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: .7em 0;
+}
+.banner-buttons {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  .button { margin: 0 4px; }
+}

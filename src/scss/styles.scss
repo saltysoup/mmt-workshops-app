@@ -1,0 +1,28 @@
+// ==========================================================================
+// One Page Event HTML and CSS Template - http://getbase.org
+// ==========================================================================
+
+// Variables and Colors
+@import "styles/variables-colors";
+
+// Import Base & Modules
+@import "~@getbase/animations/scss/index";
+@import "~@getbase/base/scss/index";
+@import "~@getbase/buttons/scss/index";
+@import "~@getbase/containers/scss/index";
+@import "~@getbase/forms/scss/index";
+@import "~@getbase/grid/scss/index";
+@import "~@getbase/tables/scss/index";
+@import "~@getbase/typography/scss/index";
+
+// Website Styles
+@import "styles/components";
+@import "styles/header";
+@import "styles/overview";
+@import "styles/schedule";
+@import "styles/register";
+
+// Base Typography and Layout Helpers
+@import "~@getbase/typography-helpers/scss/index";
+@import "~@getbase/layout-helpers/scss/index";
+@import "~@getbase/layout-spacers/scss/index";
