@@ -1587,7 +1587,9 @@ a {
   color: #fff;
   background-color: #828282;
   border-radius: 5px;
-  padding: 5px 10px; }
+  padding: 5px 10px;
+  width: 130px;
+  text-align: center; }
 
 .event-schedule-name {
   display: inline-block;
